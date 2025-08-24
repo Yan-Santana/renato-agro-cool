@@ -43,7 +43,7 @@ const AboutSection = () => {
             {/* Text Content */}
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                A <strong className="text-primary">Renato Ar Condicionado</strong> atua desde <strong>2021</strong>, 
+                A empresa<strong className="text-primary">Renato Ar Condicionado</strong> atua desde <strong>2021</strong>, 
                 oferecendo soluções em manutenção de ar condicionado para máquinas agrícolas e automotivas.
               </p>
               
