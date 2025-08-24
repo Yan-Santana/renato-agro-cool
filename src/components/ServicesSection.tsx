@@ -91,7 +91,7 @@ const ServicesSection = () => {
                 className="bg-white text-agricultural hover:bg-white/90"
               >
                 <MessageCircle className="w-5 h-5" />
-                Consultar Peças Disponíveis
+                Solicitar Orçamento
               </Button>
             </div>
           </div>
