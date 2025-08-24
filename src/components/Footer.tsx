@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             <p className="text-white/80 leading-relaxed">
               Especialista em manutenção de ar condicionado para máquinas agrícolas 
-              e automotivas na região Centro-Oeste desde 2021.
+              e automotivas na região Centro-Oeste.
             </p>
             <div className="flex items-center space-x-2 text-primary">
               <Settings className="w-4 h-4" />
