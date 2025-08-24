@@ -1,0 +1,22 @@
+@keyframes slow-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-slow-pulse {
+  animation: slow-pulse 2s ease-in-out infinite !important;
+}
+
+/* Aumentar especificidade para sobrescrever o Tailwind */
+button.animate-slow-pulse {
+  animation: slow-pulse 2s ease-in-out infinite !important;
+}
+
+/* Classe específica para o botão do WhatsApp */
+.whatsapp-button-slow-pulse {
+  animation: slow-pulse 2s ease-in-out infinite !important;
+}
