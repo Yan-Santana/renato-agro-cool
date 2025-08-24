@@ -29,10 +29,9 @@ const Header = () => {
             alt="Renato Ar Condicionado" 
             className="h-12 w-auto"
           />
-          <div className="hidden sm:block">
-            <h1 className="text-lg font-bold text-primary">Renato Ar Condicionado</h1>
-            <p className="text-xs text-muted-foreground">Máquinas Agrícolas & Automotivo</p>
-          </div>
+          <div className="block">
+            <h1 className="text-xl font-extrabold text-black tracking-wide">Renato Ar Condicionado</h1>
+            <p className="text-sm font-semibold text-gray-700">Máquinas Agrícolas & Automotivo</p>          </div>
         </div>
 
         {/* Desktop Navigation */}

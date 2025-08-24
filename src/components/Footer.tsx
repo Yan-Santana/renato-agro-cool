@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-white/80 leading-relaxed">
-              Especialistas em manutenção de ar condicionado para máquinas agrícolas 
+              Especialista em manutenção de ar condicionado para máquinas agrícolas 
               e automotivas na região Centro-Oeste desde 2021.
             </p>
             <div className="flex items-center space-x-2 text-primary">
@@ -119,7 +119,7 @@ const Footer = () => {
               © 2024 Renato Ar Condicionado. Todos os direitos reservados.
             </div>
             <div className="text-white/60 text-sm">
-              Especialistas em máquinas agrícolas desde 2021
+              Especialista em máquinas agrícolas desde 2021
             </div>
           </div>
         </div>

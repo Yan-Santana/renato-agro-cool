@@ -9,7 +9,7 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Renato AC Brand Colors - Based on logo */
-    --background: 0 0% 100%;
+    --background: 222 9% 88%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -47,7 +47,7 @@ All colors MUST be HSL.
 
     /* Design System Extensions */
     --gradient-primary: linear-gradient(135deg, hsl(214 89% 52%), hsl(214 89% 42%));
-    --gradient-hero: linear-gradient(135deg, hsl(214 60% 70% / 0.85), hsl(214 50% 60% / 0.85));
+    --gradient-hero: linear-gradient(135deg, hsla(0, 0%, 0%, 0.85), hsla(214, 32%, 24%, 0.85));
     --gradient-agricultural: linear-gradient(135deg, hsl(142, 58%, 70%), hsl(142 69% 48%));
     
     --shadow-primary: 0 10px 30px -10px hsl(214 89% 52% / 0.3);

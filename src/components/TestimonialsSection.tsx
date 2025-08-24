@@ -60,7 +60,7 @@ const TestimonialsSection = () => {
                 <strong className="text-primary"> segurança</strong>, <strong className="text-primary">autonomia</strong> e 
                 <strong className="text-primary"> comunicação clara</strong>, garantindo 
                 <strong className="text-primary"> tranquilidade</strong> e 
-                <strong className="text-primary">confiança</strong> em cada atendimento."
+                <strong className="text-primary"> confiança</strong> em cada atendimento."
               </blockquote>
 
               <div className="text-center">
@@ -93,7 +93,7 @@ const TestimonialsSection = () => {
                 Garantia de Satisfação
               </h3>
               <p className="text-xl text-white/90 mb-6">
-                Trabalhamos com <strong>transparência total</strong> e <strong>comunicação clara</strong> 
+                Trabalhamos com <strong>transparência total</strong> e <strong>comunicação clara </strong> 
                 para garantir que você tenha a melhor experiência possível.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
@@ -106,7 +106,7 @@ const TestimonialsSection = () => {
                   <div className="text-white/80">Suporte</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">3+</div>
+                  <div className="text-3xl font-bold mb-2">25+</div>
                   <div className="text-white/80">Anos de Experiência</div>
                 </div>
               </div>

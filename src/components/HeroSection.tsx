@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { MessageCircle, Settings, Wrench } from 'lucide-react';
-import heroImage from '@/assets/hero-agricultural.jpg';
+  import { MessageCircle, Settings, Wrench } from 'lucide-react';
 
 const HeroSection = () => {
   const whatsappLink = () => {
@@ -11,10 +10,17 @@ const HeroSection = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
+        {/* Logo para mobile */}
         <img 
-          src={heroImage} 
+          src="/imgs/Logo Empresa.png" 
+          alt="Logo da Renato Ar Condicionado" 
+          className="w-full h-full object-cover object-center md:hidden"
+        />
+        {/* Imagem hero para desktop */}
+        <img 
+          src="/src/assets/hero-agricultural.jpg" 
           alt="Máquinas agrícolas em campo" 
-          className="w-full h-full object-cover"
+          className="hidden md:block w-full h-full object-cover object-right"
         />
         <div className="absolute inset-0 bg-gradient-hero"></div>
       </div>
@@ -25,12 +31,12 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-8 border border-white/30">
             <Settings className="w-5 h-5 text-white" />
-            <span className="text-white font-medium">Especialistas em Ar Condicionado Agrícola</span>
+            <span className="text-white font-medium">Especialista em Ar Condicionado Agrícola</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Especialistas em manutenção de 
+            Especialista em manutenção de 
             <span className="text-primary block">ar condicionado</span>
             para máquinas agrícolas
           </h1>
@@ -72,7 +78,7 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/20">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">3+</div>
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">25+</div>
               <div className="text-white/80">Anos de Experiência</div>
             </div>
             <div className="text-center">
