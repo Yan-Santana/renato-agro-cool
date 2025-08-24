@@ -119,7 +119,7 @@ const Footer = () => {
               © 2025 Renato Ar Condicionado. Todos os direitos reservados.
             </div>
             <div className="text-white/60 text-sm">
-              Especialista em máquinas agrícolas desde 2021
+              Especialista em máquinas agrícolas.
             </div>
           </div>
         </div>
