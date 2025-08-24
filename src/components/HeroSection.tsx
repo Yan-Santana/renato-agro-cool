@@ -18,7 +18,7 @@ const HeroSection = () => {
         />
         {/* Imagem hero para desktop */}
         <img 
-          src="/src/assets/hero-agricultural.jpg" 
+          src="public/imgs/hero-agricultural.jpg" 
           alt="Máquinas agrícolas em campo" 
           className="hidden md:block w-full h-full object-cover object-right"
         />
