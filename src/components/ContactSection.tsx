@@ -205,8 +205,8 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-lg font-semibold text-foreground mb-2">Horário de Atendimento</h4>
                     <div className="space-y-1 text-muted-foreground">
-                      <p>Segunda a Sexta: 7h as 18h</p>
-                      <p>Sábado: 7h as 12h</p>
+                      <p>Segunda a Sexta: 7h às 18h</p>
+                      <p>Sábado: 7h às 12h</p>
                       <p className="text-sm text-primary font-medium">Emergências: 24h via WhatsApp</p>
                     </div>
                   </div>
