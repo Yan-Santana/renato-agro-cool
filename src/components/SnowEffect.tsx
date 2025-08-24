@@ -21,7 +21,7 @@ const SnowEffect = () => {
           id: i,
           x: Math.random() * window.innerWidth,
           y: Math.random() * window.innerHeight,
-          size: Math.random() * 15 + 8,
+          size: Math.random() * 10 + 5,
           speed: Math.random() * 2 + 1,
           opacity: Math.random() * 0.8 + 0.2,
         });
