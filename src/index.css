@@ -8,6 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Renato AC Brand Colors - Based on logo */
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -17,26 +18,46 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Blue from logo */
+    --primary: 214 89% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 214 89% 42%;
 
-    --secondary: 210 40% 96.1%;
+    /* Silver/Gray from logo */
+    --secondary: 210 11% 71%;
     --secondary-foreground: 222.2 47.4% 11.2%;
+    --silver: 210 16% 82%;
+    
+    /* Agricultural Green accent */
+    --agricultural: 142 69% 58%;
+    --agricultural-dark: 142 69% 48%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 214 89% 52%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 214 89% 52%;
 
-    --radius: 0.5rem;
+    /* Design System Extensions */
+    --gradient-primary: linear-gradient(135deg, hsl(214 89% 52%), hsl(214 89% 42%));
+    --gradient-hero: linear-gradient(135deg, hsl(214 89% 52% / 0.95), hsl(214 89% 42% / 0.95));
+    --gradient-agricultural: linear-gradient(135deg, hsl(142 69% 58%), hsl(142 69% 48%));
+    
+    --shadow-primary: 0 10px 30px -10px hsl(214 89% 52% / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(214 89% 52% / 0.1);
+    --shadow-agricultural: 0 4px 20px -4px hsl(142 69% 58% / 0.2);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -65,24 +86,29 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 214 89% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 214 89% 42%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
+    --silver: 210 16% 25%;
+
+    --agricultural: 142 69% 58%;
+    --agricultural-dark: 142 69% 48%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 214 89% 52%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --ring: 214 89% 52%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
