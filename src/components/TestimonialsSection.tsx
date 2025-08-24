@@ -55,12 +55,12 @@ const TestimonialsSection = () => {
 
               <blockquote className="text-xl md:text-2xl text-foreground leading-relaxed text-center mb-8">
                 "Nossos clientes ficam <strong className="text-primary">extremamente satisfeitos</strong> com a 
-                qualidade dos serviços prestados e destacam nossa <strong className="text-agricultural">transparência</strong> do 
+                qualidade dos serviços prestados e destacam nossa <strong className="text-primary">transparência</strong> do 
                 início ao fim do processo. Trabalhamos sempre com <strong className="text-primary">confiabilidade</strong>, 
                 <strong className="text-primary"> segurança</strong>, <strong className="text-primary">autonomia</strong> e 
                 <strong className="text-primary"> comunicação clara</strong>, garantindo 
-                <strong className="text-agricultural"> tranquilidade</strong> e 
-                <strong className="text-agricultural">confiança</strong> em cada atendimento."
+                <strong className="text-primary"> tranquilidade</strong> e 
+                <strong className="text-primary">confiança</strong> em cada atendimento."
               </blockquote>
 
               <div className="text-center">

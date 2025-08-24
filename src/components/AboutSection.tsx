@@ -48,8 +48,8 @@ const AboutSection = () => {
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Ao longo dos anos, construímos uma reputação baseada em <strong className="text-agricultural">profissionalismo</strong>, 
-                <strong className="text-agricultural"> destreza</strong> e <strong className="text-agricultural">cuidado</strong> em 
+                        Ao longo dos anos, construímos uma reputação baseada em <strong className="text-primary">profissionalismo</strong>,
+        <strong className="text-primary"> destreza</strong> e <strong className="text-primary">cuidado</strong> em 
                 cada serviço realizado.
               </p>
               

@@ -2,7 +2,7 @@ import { MessageCircle, Mail, MapPin, Settings } from 'lucide-react';
 
 const Footer = () => {
   const whatsappLink = () => {
-    window.open('https://wa.me/5567999999999?text=Olá! Vim através do site da Renato Ar Condicionado.', '_blank');
+    window.open('https://wa.me/5567991674724?text=Olá! Vim através do site da Renato Ar Condicionado.', '_blank');
   };
 
   const scrollToSection = (sectionId: string) => {
@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/77feb991-8c1a-4e5e-bcc5-13b7adfdfd8d.png" 
+                src="/imgs/Logo Empresa.png" 
                 alt="Renato Ar Condicionado" 
                 className="h-10 w-auto"
               />
@@ -32,7 +32,7 @@ const Footer = () => {
               Especialistas em manutenção de ar condicionado para máquinas agrícolas 
               e automotivas na região Centro-Oeste desde 2021.
             </p>
-            <div className="flex items-center space-x-2 text-agricultural">
+            <div className="flex items-center space-x-2 text-primary">
               <Settings className="w-4 h-4" />
               <span className="text-sm font-medium">Profissionalismo e Qualidade</span>
             </div>
@@ -44,25 +44,25 @@ const Footer = () => {
             <nav className="space-y-2">
               <button 
                 onClick={() => scrollToSection('home')}
-                className="block text-white/80 hover:text-agricultural transition-colors"
+                className="block text-white/80 hover:text-primary transition-colors"
               >
                 Home
               </button>
               <button 
                 onClick={() => scrollToSection('sobre')}
-                className="block text-white/80 hover:text-agricultural transition-colors"
+                className="block text-white/80 hover:text-primary transition-colors"
               >
                 Sobre Nós
               </button>
               <button 
                 onClick={() => scrollToSection('servicos')}
-                className="block text-white/80 hover:text-agricultural transition-colors"
+                className="block text-white/80 hover:text-primary transition-colors"
               >
                 Serviços
               </button>
               <button 
                 onClick={() => scrollToSection('contato')}
-                className="block text-white/80 hover:text-agricultural transition-colors"
+                className="block text-white/80 hover:text-primary transition-colors"
               >
                 Contato
               </button>
@@ -105,7 +105,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin className="w-5 h-5 text-agricultural" />
+                <MapPin className="w-5 h-5 text-red-500" />
                 <span className="text-white/80">Campo Grande - MS</span>
               </div>
             </div>

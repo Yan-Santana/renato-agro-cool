@@ -4,7 +4,7 @@ import heroImage from '@/assets/hero-agricultural.jpg';
 
 const HeroSection = () => {
   const whatsappLink = () => {
-    window.open('https://wa.me/5567999999999?text=Olá! Gostaria de saber mais sobre os serviços de manutenção de ar condicionado para máquinas agrícolas.', '_blank');
+    window.open('https://wa.me/5567991674724?text=Olá! Gostaria de saber mais sobre os serviços de manutenção de ar condicionado para máquinas agrícolas.', '_blank');
   };
 
   return (
@@ -31,7 +31,7 @@ const HeroSection = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             Especialistas em manutenção de 
-            <span className="text-agricultural block">ar condicionado</span>
+            <span className="text-primary block">ar condicionado</span>
             para máquinas agrícolas
           </h1>
 

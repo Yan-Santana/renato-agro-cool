@@ -33,7 +33,7 @@ const ServicesSection = () => {
   ];
 
   const whatsappLink = () => {
-    window.open('https://wa.me/5567999999999?text=Olá! Gostaria de solicitar um orçamento para manutenção de ar condicionado.', '_blank');
+    window.open('https://wa.me/5567991674724?text=Olá! Gostaria de solicitar um orçamento para manutenção de ar condicionado.', '_blank');
   };
 
   return (
@@ -88,7 +88,7 @@ const ServicesSection = () => {
                 variant="hero" 
                 size="lg"
                 onClick={whatsappLink}
-                className="bg-white text-agricultural hover:bg-white/90"
+                className="bg-white text-primary hover:bg-white/90"
               >
                 <MessageCircle className="w-5 h-5" />
                 Solicitar Orçamento

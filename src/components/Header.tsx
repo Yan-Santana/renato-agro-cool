@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   const whatsappLink = () => {
-    window.open('https://wa.me/5567999999999?text=Olá! Gostaria de saber mais sobre os serviços de manutenção de ar condicionado.', '_blank');
+    window.open('https://wa.me/5567991674724?text=Olá! Gostaria de saber mais sobre os serviços de manutenção de ar condicionado.', '_blank');
   };
 
   return (
@@ -25,7 +25,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center space-x-3">
           <img 
-            src="/lovable-uploads/77feb991-8c1a-4e5e-bcc5-13b7adfdfd8d.png" 
+            src="/imgs/Logo Empresa.png" 
             alt="Renato Ar Condicionado" 
             className="h-12 w-auto"
           />
@@ -64,16 +64,7 @@ const Header = () => {
         </nav>
 
         {/* Actions */}
-        <div className="flex items-center space-x-4">
-          {/* Theme Toggle */}
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-            className="hidden sm:flex"
-          >
-            {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-          </Button>
+        <div className="flex items-center space-x-4">          
 
           <Button 
             variant="whatsapp" 
@@ -125,15 +116,7 @@ const Header = () => {
             >
               Contato
             </button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-              className="justify-start"
-            >
-              {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-              {theme === 'dark' ? 'Tema Claro' : 'Tema Escuro'}
-            </Button>
+            
             <Button 
               variant="whatsapp" 
               size="sm" 

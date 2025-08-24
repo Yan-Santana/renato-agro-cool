@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const WhatsAppFloat = () => {
   const whatsappLink = () => {
-    window.open('https://wa.me/5567999999999?text=Olá! Gostaria de saber mais sobre os serviços da Renato Ar Condicionado.', '_blank');
+    window.open('https://wa.me/5567991674724?text=Olá! Gostaria de saber mais sobre os serviços da Renato Ar Condicionado.', '_blank');
   };
 
   return (

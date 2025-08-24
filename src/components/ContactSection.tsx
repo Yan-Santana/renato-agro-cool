@@ -36,7 +36,7 @@ const ContactSection = () => {
 
     // Create WhatsApp message
     const whatsappMessage = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\n\nMensagem: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/5567999999999?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/5567991674724?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.open(whatsappUrl, '_blank');
     
@@ -57,7 +57,7 @@ const ContactSection = () => {
   };
 
   const whatsappDirect = () => {
-    window.open('https://wa.me/5567999999999?text=Olá! Gostaria de saber mais sobre os serviços da Renato Ar Condicionado.', '_blank');
+    window.open('https://wa.me/5567991674724?text=Olá! Gostaria de saber mais sobre os serviços da Renato Ar Condicionado.', '_blank');
   };
 
   return (
@@ -109,7 +109,7 @@ const ContactSection = () => {
                     type="tel"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="(67) 99999-9999"
+                    placeholder="(67) 99167-4724"
                     className="mt-2"
                     required
                   />
@@ -207,7 +207,7 @@ const ContactSection = () => {
                     <div className="space-y-1 text-muted-foreground">
                       <p>Segunda a Sexta: 7h às 18h</p>
                       <p>Sábado: 7h às 12h</p>
-                      <p className="text-sm text-agricultural font-medium">Emergências: 24h via WhatsApp</p>
+                      <p className="text-sm text-primary font-medium">Emergências: 24h via WhatsApp</p>
                     </div>
                   </div>
                 </div>
